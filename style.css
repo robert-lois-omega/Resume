@@ -224,12 +224,27 @@ body{
         height: 555px;
     }
     #lift{
-        margin-bottom: 100px;
+        margin-bottom: 0;
     }
 
  }
 
- @media only screen and (max-width: 1024px){
+ @media only screen and (max-width: 1360px){
+    .projects_samples img{
+        width: 12rem;
+        height: 9rem;
+    }
+
+    .projects_samples{
+        height: 555px;
+    }
+    #lift{
+        margin-bottom: 0;
+    }
+
+ }
+
+ @media only screen and (max-width: 1023px){
 
     .small_greetings h3{
         font-family: "Poppins", sans-serif;
