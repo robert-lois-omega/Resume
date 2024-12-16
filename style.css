@@ -187,12 +187,12 @@ body{
 }
 
 .projects_samples img{
-    width: 24rem;
-    height: 16rem;
+    width: 17rem;
+    height: 12rem;
 }
 
 #lift{
-    height: 8rem;
+    height: 5rem;
     margin-bottom: 80px;
 }
 
@@ -214,7 +214,7 @@ body{
  }
 
 
- @media only screen and (max-width: 1615px){
+ @media only screen and (max-width: 1440px){
 
     .small_greetings h3{
         font-family: "Poppins", sans-serif;
@@ -306,13 +306,6 @@ body{
  }
 
  @media only screen and (max-width: 892px){
-    .projects_samples{
-        height: 800px;
-        margin-bottom: 0;
-    }
-}
-
- @media only screen and (max-width: 857px){
 
     .first_content{
         display: flex;
@@ -394,7 +387,7 @@ body{
     }
     .projects_samples{
         width: 90%;
-        height: 1000px;
+        height: 500px;
         margin-bottom: 0;
     }
 
@@ -404,6 +397,44 @@ body{
     }
 
     #lift{
+        margin-bottom: 100px;
+    }
+ }
+
+ @media only screen and (max-width: 770px){
+
+    .projects_samples{
+        width: 90%;
+        height: 600px;
+        margin-bottom: 0;
+    }
+
+    #lift{
         margin-bottom: 0px;
+    }
+ }
+
+ @media only screen and (max-width: 610px){
+
+    .projects_samples{
+        width: 90%;
+        height: 800px;
+        margin-bottom: 0;
+    }
+
+    #lift{
+        margin-bottom: 0px;
+    }
+ }
+
+ @media only screen and (max-width: 480px){
+
+    .projects_samples img{
+        width: 12rem;
+        height: 8rem;
+    }
+
+    .projects_samples{
+        height: 500px;
     }
  }
