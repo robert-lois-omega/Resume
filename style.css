@@ -101,8 +101,48 @@ body{
     color: white;
 }
 
+.skills{
+    background: rgb(62,51,51);
+    background: linear-gradient(90deg, rgba(62,51,51,1) 22%, rgba(145,104,48,1) 100%);
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    margin: auto;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    gap: 20px;
+}
+
+.description{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(202, 228, 205);
+    height: 200px;
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.icons{
+    display: flex;
+    width: 15%;
+    height: 15%;
+    justify-content: center;
+    gap: 5px;
+}
+
+.description:hover{
+    margin-bottom: 10px;
+    background-color: rgb(13, 131, 5);
+}
+
+
 .footer {
-    margin-top: 20px;
+    margin-top: 100px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -124,6 +164,9 @@ body{
     .small_greetings h3{
         font-size: 1.6rem;
     }
+    .description{
+        width: 20%;
+    }
  }
 
  @media only screen and (max-width: 965px){
@@ -139,6 +182,9 @@ body{
         width: 200px;
         height: 170px;
       }
+      .description{
+        width: 20%;
+    }
  }
 
  @media only screen and (max-width: 757px){
@@ -180,6 +226,15 @@ body{
       .small_greetings h3{
         font-size: 1.2rem;
     }
+
+    .skills{
+        flex-direction: column;
+        height: 55rem;
+    }
+    .description{
+        width: 40%;
+    }
+
  }
 
  @media only screen and (max-width: 676px){
@@ -214,6 +269,9 @@ body{
       .small_greetings h3{
         font-size: 1rem;
     }
+    .description{
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 369px){
@@ -227,12 +285,18 @@ body{
     .intro{
         font-size: .7rem;
     }
+    .description{
+        width: 60%;
+    }
 
 }
 
 @media only screen and (max-width: 319px){
     .first_content{
         margin-bottom: 80%;
+    }
+    .description{
+        width: 60%;
     }
 
 }
