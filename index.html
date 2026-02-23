@@ -3,83 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robert Lois Omega Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Sixtyfour&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Sixtyfour&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <div class="contents">
-            <div class="intro">
+    <div class="container-fluid container-fluid-top">
+        <div class="row">
+            <div class="col-lg">
+                <img class="my_picture img-fluid" src="./img/my_picture.png" alt="my_picture">
+            </div>
+            <div class="col-lg text-light name-intro">
                 <h1>Robert Lois Omega</h1>
-                <h3>BS Computer Engineering</h3>
-            </div>
-            <div class="options">
-                <a href="./index.html">Home</a>
-                <a href="./about.html">About</a>
-                <a href="./projects.html">Projects</a>
-            </div>
-    </div>
-    <div class="first_content">
-        <div class="picture">
-            <div class="pic_container">
-                <img src="./img/picture.jpg" alt="my_picture">
-            </div>
-        </div>
-        <div class="contain">
-            <div class="small_greetings">
-                <hr>
-                <h3>Hello, I'm a fresh graduate from Technological Institute of the Philippines (Manila) 
-                    specializing Data Science using Python and utilizing PHP, Javascript, for Web Development.</h3>
-                    <hr>
+                <h2>Junior Data Analytics Application Engineer</h2>
             </div>
         </div>
     </div>
-    <h1 style="color: white; text-align: center; font-size: 46px; font-family: 'Poppins', sans-serif; font-weight: 600;">MY SKILLS</h1>
-    <div class="skills">
-        <div class="description">
-            <h3>Data Science</h3>
-            <div class="icons">
-                <img src="./img/python_logo.png" alt="python_logo">
-                <img src="./img/TensorFlow.png" alt="TensorFlow_logo">
-                <img src="./img/seaborn.png" alt="seaborn_logo">
-                <img src="./img/scikit-learn.png" alt="scikit-learn_logo">
+    <div class="row">
+       <div class="container-fluid about-me-container">
+        <div class="row">
+            <h1>About Me</h1>
+
+            <p class="lead">
+                I am a passionate and dedicated junior data analytics application engineer with a strong foundation
+                in data science and software development. My expertise lies in extracting meaningful insights from
+                complex datasets, building robust data pipelines, and creating intuitive applications that support
+                data-driven decision-making. I am proficient in Python, SQL, and various data visualization tools,
+                and I have a keen interest in machine learning and artificial intelligence.
+            </p>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                <!-- Optional buttons or links can go here -->
             </div>
         </div>
-        <div class="description">
-            <h3>Scripting, GUI</h3>
-            <div class="icons">
-                <img src="./img/cpp_logo.png" alt="cpp_logo">
-                <img src="./img/c_logo.png" alt="c_logo">
-                <img src="./img/selenium-seeklogo.png" alt="selenium-seeklogo_logo">
+    </div>
+    </div>
+    <div class="row">
+    <div class="container-fluid skills-container">
+        <div class="container px-4 py-5" id="icon-grid">
+            <h1 class="pb-2 border-bottom">My Skills</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <!-- Item 1 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/python_logo.png" alt="python_logo">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Python</h3>
+                    <p class="mb-0">My bread and butter in data analysis and automation.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/Bokeh.png" alt="Bokeh">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Bokeh</h3>
+                    <p class="mb-0">A powerful Python library for creating interactive visualizations.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/mysql_logo.png" alt="SQL">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">SQL</h3>
+                    <p class="mb-0">My go-to tool for database management and querying.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/mongodb.png" alt="mongodb">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">MongoDB</h3>
+                    <p class="mb-0">My go-to NoSQL database for flexible data storage and retrieval.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/pandas.jpg" alt="pandas">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Pandas</h3>
+                    <p class="mb-0">My go-to library for data manipulation and analysis in Python.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/scikit-learn.png" alt="scikit-learn">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Scikit-learn</h3>
+                    <p class="mb-0">My go-to library for machine learning in Python.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/TensorFlow.png" alt="TensorFlow">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">TensorFlow</h3>
+                    <p class="mb-0">My go-to library for deep learning in Python.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/seaborn.png" alt="seaborn">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Seaborn</h3>
+                    <p class="mb-0">My go-to library for statistical data visualization in Python.</p>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/docker.png" alt="docker">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Docker</h3>
+                    <p class="mb-0">My go-to tool for containerization and deployment.</p>
+                    </div>
+                </div>
+                </div>
+                <!-- Item 10 -->
+                <div class="col">
+                <div class="d-flex gap-3 align-items-start">
+                    <img src="./img/selenium-seeklogo.png" alt="selenium">
+                    <div>
+                    <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Selenium</h3>
+                    <p class="mb-0">My go-to tool for browser automation and web scraping.</p>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="description">
-            <h3>Database</h3>
-            <div class="icons">
-                <img src="./img/mysql_logo.png" alt="js_logo">
-                <img src="./img/mongodb.png" alt="mongo_db">
-            </div>
-        </div>
-        <div class="description">
-            <h3>Web App <br> Development</h3>
-            <div class="icons">
-                <img src="./img/js_logo.png" alt="js_logo">
-                <img src="./img/css_logo.png" alt="css_logo">
-                <img src="./img/html_logo.png" alt="html_logo">
-                <img src="./img/php_logo.png" alt="php_logo">
-            </div>
-        </div>
+    </div>    
     </div>
 
-    <div class="footer">
-        <li><a href="https://www.facebook.com/hatakeiyle.apollyon"><img width="40px" height="40px" src="./img/facebook.png" alt="facebook"></a></li>
-        <li><a href="https://github.com/robert-lois-omega"><img width="40px" height="40px" src="./img/github.png" alt="github"></a></li>
-        <li><a href='https://www.linkedin.com/in/robert-lois-omega-3888bb187/'><img width="40px" height="40px" src="./img/linkedin.png" alt="linkedin"></a></li>
-        <h5 style="font-family: Arial, Helvetica, sans-serif; color: black; font-size: 14px;">©2024, All rights reserved.</h5>
+    <div class="container-fluid my-projects-container">
+        <div class="container marketing">
+            <h1 class="pb-2">My Projects</h1>
+            <hr class="featurette-divider">
+            <div class="row">
+                <div class="col-lg-4">
+                <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">Gcash Receipt Classifier</h3>
+                <img src="./img/1.png" width="100%" alt="Project 1">
+                </div>
+
+                <div class="col-lg-4">
+                <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">School Offence Management System</h3>
+                <img src="./img/2.png" width="100%" alt="Project 1">
+                </div>
+
+                <div class="col-lg-4">
+                <h3 class="fw-bold mb-1 fs-5 text-body-emphasis">PrintHub V4</h3>
+                <img src="./img/4.png" width="100%" alt="Project 1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <footer class="py-3 my-4">
+            <p class="text-center text-body-secondary">© 2026 Robert Lois Omega</p> 
+        </footer>
     </div>
 </body>
 </html>
